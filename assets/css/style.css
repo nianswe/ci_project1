@@ -1,0 +1,24 @@
+/* Asterisk wildcard selector to override default styles from browser */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+/* 4 Header */
+header {
+    background-color: black;
+
+}
+
+/* 4 Main content */
+main {
+    background-color: darkgray;
+
+}
+
+/* 4 Footer */
+footer {
+    background-color: darkolivegreen
+}
