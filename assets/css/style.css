@@ -6,19 +6,30 @@
 
 }
 
-/* 4 Header */
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* Generic project styles */
+    color: #3b3b3b;
+}
+
+/* Header */
 header {
     background-color: black;
 
 }
 
-/* 4 Main content */
+/* Main content */
 main {
     background-color: darkgray;
+    /* Let main element use all available space to push footer to bottom */
+    flex: 1 0 auto;
 
 }
 
-/* 4 Footer */
+/* Footer */
 footer {
     background-color: darkolivegreen
 }
