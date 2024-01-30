@@ -55,6 +55,7 @@ header a {
 
 /* Menu */
 #menu {
+    justify-content: space-between;
     list-style-type: none;
     color: whitesmoke;
     font-size: 100%;
@@ -66,6 +67,20 @@ header a {
     margin-bottom: 1em;
 
 }
+
+/* Navigation bar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: rgba(59, 59, 59, .8);
+    width: auto;
+    right: 0;
+    padding: 0 2rem;
+    box-shadow: 0 3px 3px black;
+    /* display: none; */
+    top: 100%;
+
+}
+
 
 
 /* Main content */
