@@ -58,7 +58,7 @@ header a {
     justify-content: space-between;
     list-style-type: none;
     color: whitesmoke;
-    font-size: 100%;
+    font-size: 150%;
     letter-spacing: 4px;
 
 }
@@ -75,7 +75,8 @@ nav {
     width: auto;
     right: 0;
     padding: 0 2rem;
-    box-shadow: 0 3px 3px black;
+    border-radius: 0 3%;
+    box-shadow: 3px 3px 3px black;
     display: none;
     top: 100%;
 
@@ -96,6 +97,11 @@ nav {
     margin-top: 45px;
     font-size: 2rem;
     color: whitesmoke;
+}
+
+/* Mark active page on menu item with underline */
+.active {
+    border-bottom: 2px solid whitesmoke;
 }
 
 
@@ -132,14 +138,14 @@ footer {
 
 #social-media i {
     font-size: 180%;
-    padding: 1vw;
+    padding: 1vw 0;
     color: whitesmoke;
 }
 
 #copyrights {
     text-align: center;
     font-size: 80%;
-    margin-top: 2px;
-    padding: 1vw 0;
+    margin-top: 1px;
+    padding: 2vw 0;
     color: whitesmoke;
 }
