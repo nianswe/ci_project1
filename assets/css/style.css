@@ -78,6 +78,9 @@ main {
 
 /* Footer */
 footer {
-    background-color: darkolivegreen
+    background-color: rgba(59, 59, 59, .8);
+    padding: 0 1rem;
+    width: 100%;
+    height: 100px;
 }
 
