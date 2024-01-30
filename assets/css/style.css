@@ -124,6 +124,37 @@ main {
 
 }
 
+#welcome {
+    margin-top: 160%;
+    align-items: center;
+ }
+
+#welcome div {
+    margin-top: 20px;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    background-color: rgba(252, 253, 252, 0.9);
+    margin-left:10px;
+    width: 92%;
+    min-height: 100px;
+    padding: 3px;
+    z-index: 1;
+
+}
+
+#welcome h2 {
+    font-size: 130%;
+    font-weight: 900;
+    margin-left: 10px;
+}
+
+#welcome p {
+    font-size: 130%;
+    margin-left: 10px;
+}
+
+
+
 /* Footer */
 footer {
     background-color: rgba(59, 59, 59, .8);
