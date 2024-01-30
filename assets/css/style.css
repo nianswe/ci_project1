@@ -123,12 +123,13 @@ main {
     margin-top: 120px;
 
 }
-
+/* Welcome Section om main page */
 #welcome {
-    margin-top: 160%;
+    margin-top: 80vh;
     align-items: center;
  }
 
+ /* Div in Welcome Section om main page */
 #welcome div {
     margin-top: 20px;
     border: 2px solid whitesmoke;
@@ -142,18 +143,49 @@ main {
 
 }
 
+/* H2 in Div in Welcome Section om main page */
 #welcome h2 {
-    font-size: 130%;
+    font-size: 110%;
     font-weight: 900;
     margin-left: 10px;
 }
 
+/* P in Div in Welcome Section om main page */
 #welcome p {
-    font-size: 130%;
+    font-size: 110%;
     margin-left: 10px;
 }
 
 
+/* Booknow Form on BookNow Page*/
+
+#booknow {
+    
+        margin-top: 10vh;
+        border: 2px solid whitesmoke;
+        border-radius: 5px;
+        /* display:flex; */
+        background-color: rgba(252, 253, 252, 0.9);
+        margin-left:5px;
+        width: 96vw;
+        min-height: 100px;
+        padding: 3px;
+        z-index: 1;
+}
+
+
+#booknow h3 {
+    align-items: center;
+    margin-left: 10px;
+    
+    
+}
+
+#stayfrom {
+    align-items: center;
+    margin-left: 10px;
+    max-width: 400px;
+}
 
 /* Footer */
 footer {
