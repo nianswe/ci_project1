@@ -76,11 +76,27 @@ nav {
     right: 0;
     padding: 0 2rem;
     box-shadow: 0 3px 3px black;
-    /* display: none; */
+    display: none;
     top: 100%;
 
 }
 
+/* Nav toggle : credit and inspitaion from CI Love Running project*/
+
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    margin-top: 45px;
+    font-size: 2rem;
+    color: whitesmoke;
+}
 
 
 /* Main content */
