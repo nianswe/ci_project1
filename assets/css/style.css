@@ -123,18 +123,50 @@ main {
     margin-top: 100px;
 
 }
+
+/* Book Now Button floting on main page */
+
+#book-now-button {
+    border: 2px solid whitesmoke;
+    border-radius: 30px;
+    background-color: rgba(252, 253, 252, 0.7);
+    margin-top: 120px;
+    margin-left: 23vw;     
+    width: 150px;
+    height: 40hw;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    font-weight: 900;
+    /*   padding: 10px;
+    width: 200px;
+    height: 40hw;
+    z-index: 98;
+    */
+
+}
+
+
+#book-now-button a {
+
+    color: rgba(59, 59, 59, 1);
+    font-size: 150%;
+    font-weight: 900;
+    text-decoration: none;
+}
+
 /* Welcome Section om main page */
 #welcome {
-    margin-top: 80vh;
+    margin-top: 67vh;
     align-items: center;
  }
 
  /* Div in Welcome Section om main page */
 #welcome div {
     margin-top: 20px;
-    border: 2px solid whitesmoke;
+    border: 2px solid rgba(252, 253, 252, 0.8);
     border-radius: 5px;
-    background-color: rgba(252, 253, 252, 0.9);
+    background-color: rgba(252, 253, 252, 0.8);
     margin-left:10px;
     width: 92%;
     min-height: 100px;
@@ -144,20 +176,63 @@ main {
 }
 
 /* H2 in Div in Welcome Section om main page */
-#welcome h2 {
+#welcome h2,
+#about h2 {
     font-size: 110%;
     font-weight: 900;
     margin-left: 10px;
 }
 
 /* P in Div in Welcome Section om main page */
-#welcome p {
+#welcome p,
+#about p {
     font-size: 110%;
     margin-left: 10px;
 }
 
+#welcome p {
+    font-style: italic;
+    font-weight: bold;
+}
 
-/* Booknow Form on BookNow Page*/
+#about {
+    margin-top: 30vh;
+    align-items: center;
+ }
+
+#about div {
+    margin-top: 20px;
+    border: 1px solid rgba(252, 253, 252, 0.9);
+    border-radius: 5px;
+    background-color: rgba(252, 253, 252, 0.9);
+    margin-left:10px;
+    width: 92%;
+    min-height: 100px;
+    max-width: 80w;
+    padding: 3px;
+    z-index: 1;
+
+}
+
+#about img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    border: 1px solid rgba(252, 253, 252, 0.1);
+    line-height: 3em;
+}
+
+/* #about p {
+    font-size: 150%;
+    font-weight: 900;
+    padding: 1px;
+    margin: 6px;
+}
+*/
+
+
+
+/* Booknow Form on BookNow Page */
 
 #booknow {
         margin-top: 0;
@@ -174,7 +249,6 @@ main {
         
 }
 
-
 #booknow h3, p {
     font-size: 100%;
     align-items: center;
@@ -182,16 +256,9 @@ main {
     
 }
 
-#stayfrom {
-    align-items: center;
-    margin-left: 10px;
-    max-width: 200px;
-    
-    
-}
 
+/* Submit button, Send */
 .button {
-    
     margin-left: 75px;
     padding: 5px 32px;
     font-size: 100%;
@@ -202,6 +269,9 @@ main {
     
 }
 
+
+
+
 /* Footer */
 footer {
     background-color: rgba(59, 59, 59, .8);
@@ -210,6 +280,7 @@ footer {
     height: 100px;
 }
 
+/* Follow us text */
 #followus {
     text-align: center;
     font-size: 100%;
@@ -217,6 +288,7 @@ footer {
     color: whitesmoke;
 }
 
+/* Social media */
 #social-media {
     text-align: center;
     justify-content: space-between;
@@ -231,10 +303,11 @@ footer {
     color: whitesmoke;
 }
 
+/* Copyright information */
 #copyrights {
     text-align: center;
     font-size: 80%;
-    margin-top: 1px;
+    margin-top: 2px;
     padding: 2vw 0;
     color: whitesmoke;
 }
