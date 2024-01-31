@@ -128,8 +128,8 @@ main {
     border: 2px solid whitesmoke;
     border-radius: 30px;
     background-color: rgba(252, 253, 252, 0.7);
-    margin-top: 125px;
-    margin-left: 23vw;     
+    margin-top: 127px;
+    margin-left: 27vw;     
     width: 150px;
     height: 40hw;
     padding: 10px;
@@ -376,7 +376,7 @@ footer {
      }
     #welcome div {
         margin-top: 20vh;
-        margin-left: 5vw;
+        margin-left: 8vw;
         width: 85vw;
 
     }
@@ -441,6 +441,11 @@ footer {
         display: none;
     }
     
+    #book-now-button {
+        margin-top: 132px;
+        margin-left: 40vw;
+    }
+
     #book-now-button a:hover {
         border-bottom: 4px dotted rgba(59, 59, 59, .8);
     }
@@ -491,7 +496,7 @@ footer {
 /* Large devices (laptops and desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
     #book-now-button {
-        margin-left: 40vw;
+        margin-left: 46vw;
     }
 
     #about div {
