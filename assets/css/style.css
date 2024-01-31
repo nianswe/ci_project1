@@ -235,9 +235,56 @@ main {
         width: 96vw;
         min-height: 100px;
         max-width: 300px;
-        padding: 3px;
         z-index: 1;
-        
+       
+}
+
+/* Input label inlinement in form */
+#booknow label {
+    margin-left:4vw;
+
+}
+
+/* Inlinement rules for date input in form */
+.text-input {
+    background: whitesmoke;
+    color: rgba(59, 59, 59, 1);
+    width: 240px;
+    height: 20px;
+    border: 1px solid rgba(59, 59, 59, 1);
+    border-radius: 2px;
+    margin-left:2vw;
+ 
+}
+
+.text-input-sh {
+    color: rgba(59, 59, 59, 1);
+    width: 80px;
+    margin-left:2px;
+    height: 20px;
+    border: 1px solid rgba(59, 59, 59, 1);
+    border-radius: 2px;
+    
+}
+
+.text-input-md {
+    color: rgba(59, 59, 59, 1);
+    width: 80px;
+    margin-left: 18px;
+    height: 20px;
+    border: 1px solid rgba(59, 59, 59, 1);
+    border-radius: 2px;
+    
+}
+
+.text-input-lng {
+    color: rgba(59, 59, 59, 1);
+    width: 80px;
+    margin-left:20px;
+    height: 20px;
+    border: 1px solid rgba(59, 59, 59, 1);
+    border-radius: 2px;
+   
 }
 
 #booknow h3, p {
@@ -246,7 +293,6 @@ main {
     margin-left: 20px;
     
 }
-
 
 /* Submit button, Send */
 .button {

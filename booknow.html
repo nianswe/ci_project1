@@ -66,7 +66,7 @@
 
                 <form id="booknow-form" method="POST" action="https://formdump.codeinstitute.net">
                     <h3>Check for availabe bungalos</h3>
-                    <p></p>Please fill out the form when you plan to stay, and your contact information, we will contact
+                    <p>Please fill out the form when you plan to stay, and your contact information, we will contact
                     you as soon as possible!</p>
 
                     <!-- Input to select Year, Month, Day, From, To and Contact information so send in form -->
@@ -74,10 +74,11 @@
 
                         <!-- Input From when, Year -->
                         <br>
-                        <b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspFrom:</b>
+                        <b>From:</b>
+                        <br>
                         <div>
-                            <label for="year">Year&nbsp&nbsp&nbsp&nbsp&nbsp</label>
-                            <input list="year" id="from-year-choice" name="from-year-choice" type="text" />
+                            <label for="year">Year</label>
+                            <input list="year" id="from-year-choice" name="from-year-choice" type="text" class="text-input-md" required>
 
                             <!-- Datalist Year -->
                             <datalist id="year">
@@ -90,7 +91,7 @@
                         <!-- Input From when, Year -->
                         <div>
                             <label for="months">Month</label>
-                            <input list="months" id="from-months-choice" name="from-months-choice" type="text" />
+                            <input list="months" id="from-months-choice" name="from-months-choice" type="text" class="text-input-sh" required>
 
                             <!-- Datalist Month -->
                             <datalist id="months">
@@ -111,8 +112,8 @@
 
                         <!-- Input From when, Day -->
                         <div>
-                            <label for="day">Day&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
-                            <input list="day" id="from-day-choice" name="from-day-choice" type="text" />
+                            <label for="day">Day</label>
+                            <input list="day" id="from-day-choice" name="from-day-choice" type="text" class="text-input-lng" required>
 
                             <!-- Datalist Day -->
                             <datalist id="day">
@@ -149,25 +150,25 @@
                                 <option value="31"></option>
                             </datalist>
                         </div>
-
+                        <br>
                         <!-- Input To when, Year -->
-                        <b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspTo:</b>
+                        <b>To:</b>
 
                         <div>
-                            <label for="year">Year&nbsp&nbsp&nbsp&nbsp&nbsp</label>
-                            <input list="year" id="to-year-choice" name="to-year-choice" type="text" />
+                            <label for="year">Year</label>
+                            <input list="year" id="to-year-choice" name="to-year-choice" type="text" class="text-input-md" required>
                         </div>
 
                         <!-- Input To when, Month -->
                         <div>
                             <label for="months">Month</label>
-                            <input list="months" id="to-months-choice" name="to-months-choice" type="text" />
+                            <input list="months" id="to-months-choice" name="to-months-choice" type="text" class="text-input-sh" required>
                         </div>
 
                         <!-- Input To when, Day -->
                         <div>
-                            <label for="day">Day&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</label>
-                            <input list="day" id="to-day-choice" name="to-day-choice" type="text" />
+                            <label for="day">Day</label>
+                            <input list="day" id="to-day-choice" name="to-day-choice" type="text" class="text-input-lng" required>
                         </div>
                         <br>
 
@@ -182,7 +183,7 @@
 
                         <!-- Email Address -->
                         <label for="email_address">Email Address<br></label>
-                        <input type="email" name="email_address" id="email_address" class="text-input"><br>
+                        <input type="email" name="email_address" id="email_address" class="text-input" required><br>
                         <br>
 
                         <!-- Submit button, Send -->
