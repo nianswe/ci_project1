@@ -62,7 +62,7 @@
         <!-- Main content -->
         <main>
             <!-- Book now Form  credit and insperation from CI Love Running Project -->
-            <section id="booknow">
+            <div id="booknow">
 
                 <form id="booknow-form" method="POST" action="https://formdump.codeinstitute.net">
                     <h3>Check for availabe bungalows</h3>
@@ -78,7 +78,7 @@
                         <br>
                         <div>
                             <label for="from-year-choice">Year</label>
-                            <input list="year" id="from-year-choice" name="from-year-choice" type="text" class="text-input-md" required>
+                            <input list="year" id="from-year-choice" name="from-year-choice" type="text" class="text-input text-input-md" required>
 
                             <!-- Datalist Year -->
                             <datalist id="year">
@@ -91,7 +91,7 @@
                         <!-- Input From when, Year -->
                         <div>
                             <label for="from-months-choice">Month</label>
-                            <input list="months" id="from-months-choice" name="from-months-choice" type="text" class="text-input-sh" required>
+                            <input list="months" id="from-months-choice" name="from-months-choice" type="text" class="text-input text-input-sh" required>
 
                             <!-- Datalist Month -->
                             <datalist id="months">
@@ -113,7 +113,7 @@
                         <!-- Input From when, Day -->
                         <div>
                             <label for="from-day-choice">Day</label>
-                            <input list="day" id="from-day-choice" name="from-day-choice" type="text" class="text-input-lng" required>
+                            <input list="day" id="from-day-choice" name="from-day-choice" type="text" class="text-input text-input-lng" required>
 
                             <!-- Datalist Day -->
                             <datalist id="day">
@@ -156,40 +156,41 @@
 
                         <div>
                             <label for="to-year-choice">Year</label>
-                            <input list="year" id="to-year-choice" name="to-year-choice" type="text" class="text-input-md" required>
+                            <input list="year" id="to-year-choice" name="to-year-choice" type="text" class="text-input text-input-md" required>
                         </div>
 
                         <!-- Input To when, Month -->
                         <div>
                             <label for="to-months-choice">Month</label>
-                            <input list="months" id="to-months-choice" name="to-months-choice" type="text" class="text-input-sh" required>
+                            <input list="months" id="to-months-choice" name="to-months-choice" type="text" class="text-input text-input-sh" required>
                         </div>
 
                         <!-- Input To when, Day -->
                         <div>
                             <label for="to-day-choice">Day</label>
-                            <input list="day" id="to-day-choice" name="to-day-choice" type="text" class="text-input-lng" required>
+                            <input list="day" id="to-day-choice" name="to-day-choice" type="text" class="text-input text-input-lng" required>
                         </div>
                         <br>
 
                         <!-- Contact information -->
                         <!-- Name -->
                         <label for="first_name">First Name<br></label>
-                        <input type="text" name="first_name" id="first_name" class="text-input" required>
+                        <input type="text" name="first_name" id="first_name" class="text-input text-input-contact" required>
                         <br>
                         <label for="last_name">Last Name<br></label>
-                        <input type="text" name="last_name" id="last_name" class="text-input" required>
+                        <input type="text" name="last_name" id="last_name" class="text-input text-input-contact" required>
                         <br>
 
                         <!-- Email Address -->
                         <label for="email_address">Email Address<br></label>
-                        <input type="email" name="email_address" id="email_address" class="text-input" required><br>
+                        <input type="email" name="email_address" id="email_address" class="text-input text-input-contact" required><br>
                         <br>
 
                         <!-- Submit button, Send -->
                         <button type="submit" class="button">Send</button>
                     </div>
                 </form>
+            </div>
         </main>
     
 

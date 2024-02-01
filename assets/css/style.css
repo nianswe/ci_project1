@@ -32,6 +32,7 @@ header {
     height: 125px;
     align-items: center;
     justify-content: space-between;
+    z-index: 98;
     
 
 }
@@ -52,12 +53,11 @@ header a {
     
 }
 
-
 /* Menu */
 #menu {
     list-style-type: none;
     color: whitesmoke;
-    font-size: 150%;
+    font-size: 130%;
     letter-spacing: 2px;
 
 }
@@ -118,29 +118,24 @@ main {
     /* background-color: darkgray; */
     /* Let main element use all available space to push footer to bottom */
     flex: 1 0 auto;
-    margin-top: 125px;
+    z-index: 2;
         
 }
 
 /* Book Now Button floting on main page */
-
 #book-now-button {
     border: 2px solid whitesmoke;
     border-radius: 30px;
     background-color: rgba(252, 253, 252, 0.7);
     margin-top: 127px;
-    margin-left: 27vw;     
-    width: 150px;
+    margin-left: 13vw;     
+    width: 200px;
     height: 40hw;
-    padding: 10px;
+    padding: 5px;
     text-align: center;
     position: fixed;
     font-weight: 900;
-    /*   padding: 10px;
-    width: 200px;
-    height: 40hw;
-    z-index: 98;
-    */
+    
 
 }
 
@@ -153,11 +148,21 @@ main {
     text-decoration: none;
 }
 
+#book-now-button div {
+
+    color: rgba(59, 59, 59, 1);
+    font-size: 70%;
+    font-style: italic;
+    text-decoration: none;
+}
+
 /* Welcome Section om main page */
 #welcome {
-    margin-top: 67vh;
-    margin-bottom: 5vh;
-    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 64vh;
+    margin-bottom: 0;
+    /* align-items: left; */
  }
 
  /* Div in Welcome Section om main page */
@@ -169,8 +174,6 @@ main {
     width: 94vw;
     margin-left: 14px;
     min-height: 100px;
-    
-    
     padding: 3px;
     z-index: 1;
 
@@ -198,6 +201,15 @@ main {
     font-weight: bold;
 }
 
+/* Book now Banner, hidden, replace book-now-button at larger screens than 768px */
+#booknow-banner,
+#booknow-banner a
+#booknow-banner p {
+    display: none;
+    
+}
+
+/* About Page */
 #about {
     margin-top: 30vh;
     align-items: center;
@@ -211,7 +223,6 @@ main {
     margin-left:10px;
     width: 93vw;
     min-height: 100px;
-    
     padding: 3px;
     z-index: 1;
 
@@ -228,17 +239,18 @@ main {
 /* Booknow Form on BookNow Page */
 
 #booknow {
-        margin-top: 0;
-        border: 2px solid whitesmoke;
-        border-radius: 5px;
-        /* display:flex; */
-        background-color: rgba(252, 253, 252, 0.9);
-        margin-left:5px;
-        width: 96vw;
-        min-height: 100px;
-        max-width: 300px;
-        z-index: 1;
-       
+    margin-top: 125px;
+    margin-left: 4vw;
+    margin-bottom:auto;
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    /* display:flex; */
+    background-color: rgba(252, 253, 252, 0.8);
+    width: 96vw;
+    min-height: 100px;
+    max-width: 300px;
+    z-index: 2;
+           
 }
 
 /* Input label inlinement in form */
@@ -248,48 +260,45 @@ main {
 }
 
 /* Inlinement rules for date input in form */
+
+/* Text input fields general */
 .text-input {
     background: whitesmoke;
     color: rgba(59, 59, 59, 1);
+    height: 20px;
+    border: 1px solid rgba(59, 59, 59, 1);
+    border-radius: 2px;
+
+}
+
+/* Text input fields contact */
+.text-input-contact {
+    margin-left:10px;
     width: 240px;
-    height: 20px;
-    border: 1px solid rgba(59, 59, 59, 1);
-    border-radius: 2px;
-    margin-left:2vw;
- 
+        
 }
 
+/* Text input fields short margin */
 .text-input-sh {
-    color: rgba(59, 59, 59, 1);
-    width: 80px;
     margin-left:2px;
-    height: 20px;
-    border: 1px solid rgba(59, 59, 59, 1);
-    border-radius: 2px;
-    
+    width: 80px;
 }
 
+/* Text input fields medium margin */
 .text-input-md {
-    color: rgba(59, 59, 59, 1);
-    width: 80px;
     margin-left: 18px;
-    height: 20px;
-    border: 1px solid rgba(59, 59, 59, 1);
-    border-radius: 2px;
+    width: 80px;
+       
+}
+
+/* Text input fields long margin */
+.text-input-lng {
+    margin-left:20px;
+    width: 80px;
     
 }
 
-.text-input-lng {
-    color: rgba(59, 59, 59, 1);
-    width: 80px;
-    margin-left:20px;
-    height: 20px;
-    border: 1px solid rgba(59, 59, 59, 1);
-    border-radius: 2px;
-   
-}
-
-#booknow h3, p {
+#booknow h3, p, b {
     font-size: 100%;
     align-items: center;
     margin-left: 20px;
@@ -299,6 +308,7 @@ main {
 /* Submit button, Send */
 .button {
     margin-left: 76px;
+    margin-bottom: 1vh;
     padding: 5px 32px;
     font-size: 100%;
     background-color: rgba(59, 59, 59, .8);
@@ -352,11 +362,24 @@ footer {
     color: whitesmoke;
 }
 
-/* Media query: large or landscape phones (375px and up) */
+/* Media query: large or landscape phones (360px and up) */
 @media screen and (min-width: 360px) {
+    #book-now-button {
+    margin-left: 29vw; 
+    
+    }
+
     .button {
         margin-left: 90px;
     }
+
+    #booknow {
+        margin-left:10vw ;
+        margin-top: 125px;
+        
+    }
+    
+    
 }
 
 /* Media query: large or landscape phones (400px and up) */
@@ -375,33 +398,53 @@ footer {
     .button {
     margin-left: 90px;
     }
+
+    #booknow {
+        margin-left:14vw ;
+        margin-top: 125px;
+        
+    }
 }
+
+
+
+
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
     #book-now-button {
         margin-top: 132px;
-        margin-left: 35vw;
+        margin-left: 33vw;
     }
+    
     #welcome {
-        margin-top: 23vh;
-        margin-bottom: 42vh;
+        margin-top: 3vh;
+        margin-bottom: 45vh;
         margin-left: 0;
-        
-        
-     }
+       
+    }
+    
+    /* Div in Welcome Section om main page */
     #welcome div {
-        margin-top: 20vh;
+        margin-top: 10vh;
         margin-left: 2vw;
-        width: 90vw;
+        width: 96vw;
         
     }
 
-    #welcome p,
+    #welcome p {
+        font-size: 170%;
+        margin-left: 20px;
+    
+    }
+    
+
+    /* About Site */
+
     #about p {
         font-size: 170%;
         margin-left: 20px;
-}
+    }
 
     #about div {
     max-width: 400px;
@@ -414,14 +457,13 @@ footer {
         font-size: 170%;
         font-weight: 900;
         margin-left: 20px;
-}
+    }
 
     #booknow {
         margin-left: 25vw;
         margin-top: 25vh;
         margin-bottom: 10vh;
-}
-
+    }
     
 }
 
@@ -458,26 +500,28 @@ footer {
     .nav-toggle-label {
         display: none;
     }
-    /*
-    #book-now-button {
-        margin-top: 132px;
-        margin-left: 40vw;
-    }
-
-    #book-now-button a:hover {
-        border-bottom: 4px dotted rgba(59, 59, 59, .8);
-    }
-    */
-
     
+    main {
+        
+    }
 
+    #welcome div {
+        margin-top: 15vh;
+        margin-left: 2vw;
+        width: 30vw;
+        
+    }
 
-    #booknow {
-        margin-left: 30vw;
-        margin-top: 25vh;
-        margin-bottom: 10vh;
-    } 
-     
+    #booknow-banner {
+        display: block;
+        width: 50px;
+        text-align: center;
+        align-self: flex-end;
+        margin-right: 3vw;
+      
+    }   
+
+        
     #about div {
         
         margin-left: 25vw;
@@ -488,62 +532,14 @@ footer {
         max-width: 50vw;
         margin-left: 25vw;
     
-}
+    }   
 
-#welcome div {
-    width: 40vw;
+    
+
+    /* Hide Book Now Button floting on main page for tablets and larger (768px and up)  */
+
     
 }
-
-/* Hide Book Now Button floting on main page for tablets and larger (768px and up)  */
-
-#book-now-button {
-    border: transparent;
-    border-color: transparent;
-    background-color: transparent;
-
-}
-
-#book-now-button a {
-    color: transparent
-   
-}
-
-#booknow-banner {
-    margin-top: 20vh;
-    margin-left: 2vw;
-    width: 90vw;
-    border: 2px solid whitesmoke;
-        border-radius: 30px;
-         background-color: rgba(252, 253, 252, 0.7);
-        margin-top: 127px;
-        margin-left: 27vw;     
-         width: 150px;
-        height: 40hw;
-        padding: 10px;
-        text-align: center;
-        position: fixed;
-        font-weight: 900;
-    
-}
-
-#booknow-banner p, a {
-    font-size: 170%;
-    margin-left: 20px;
-        color: rgba(59, 59, 59, 1);
-        font-size: 150%;
-         font-weight: 900;
-        font-style: italic;
-        text-decoration: none;
-
-
-}
-
-
-
-
-}
-
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
@@ -555,13 +551,10 @@ footer {
         margin-left: 30vw;
     }
 
-    #booknow {
-        margin-left: 5vw;
-        margin-top: 25vh;
-        margin-bottom: 10vh;
-}
+    
 
     #book-now-button {
+        display: none;
         margin-left: 43vw;
     }
  
@@ -580,3 +573,4 @@ footer {
         width: 400px;
     }
 }
+
