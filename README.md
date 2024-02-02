@@ -33,10 +33,10 @@ Information with description about your stay and photos what you can do in the a
   - The Treetop Bungalows 
 
 ![The Treetop Bungalows](https://github.com/nianswe/ci_project1/blob/main/assets/images/the_treetop_bungalows_about.png)
-https://github.com/nianswe/ci_project1/blob/main/assets/images/about1.png
-https://github.com/nianswe/ci_project1/blob/main/assets/images/about2.png
-https://github.com/nianswe/ci_project1/blob/main/assets/images/about3.png
-https://github.com/nianswe/ci_project1/blob/main/assets/images/about4.png
+!https://github.com/nianswe/ci_project1/blob/main/assets/images/about1.png
+!https://github.com/nianswe/ci_project1/blob/main/assets/images/about2.png
+!https://github.com/nianswe/ci_project1/blob/main/assets/images/about3.png
+!https://github.com/nianswe/ci_project1/blob/main/assets/images/about4.png
 
 
 - __The Footer__ 
