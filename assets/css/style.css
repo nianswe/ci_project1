@@ -130,7 +130,7 @@ main {
 
 /* Book Now Button floting on main page */
 #book-now-button {
-    border: 2px solid whitesmoke;
+    /* border: 2px solid whitesmoke; */
     border-radius: 30px;
     background-color: rgba(252, 253, 252, 0.7);
     margin-top: 127px;
@@ -174,7 +174,7 @@ main {
  /* Div in Welcome Section om main page */
 #welcome div {
     margin-top: 49vh;
-    border: 2px solid rgba(252, 253, 252, 0.8);
+    /* border: 2px solid rgba(252, 253, 252, 0.8); */
     border-radius: 5px;
     background-color: rgba(252, 253, 252, 0.8);
     width: 94vw;
@@ -225,7 +225,7 @@ main {
 
 #about div {
     margin-top: 20px;
-    border: 1px solid rgba(252, 253, 252, 0.9);
+    /* border: 1px solid rgba(252, 253, 252, 0.9); */
     border-radius: 5px;
     background-color: rgba(252, 253, 252, 0.9);
     margin-left:10px;
@@ -321,7 +321,7 @@ main {
     font-size: 100%;
     background-color: rgba(59, 59, 59, .8);
     color: whitesmoke;
-    border: 2px solid rgba(59, 59, 59, .8);
+    /* border: 2px solid rgba(59, 59, 59, .8); */
     border-radius: 30px;
     
 }
@@ -552,11 +552,12 @@ footer {
         text-align: center;
         align-self:flex-end;
         margin-right: 3vw;
-          
+                  
     }
     
     #booknow-banner a {
         text-decoration: none;
+        color: red;
     }
     
     #book-now-button {
