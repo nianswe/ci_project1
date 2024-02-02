@@ -2,7 +2,7 @@
 
 The Treetop Bungalows web page, homepage for a fictive hotel with bungalows located up in the pine trees, and to make it easy to find for people who love the nature and whould like to stay temot in the forest but with full service and amenities. 
 
-![Responsice Mockup](https://github.com/nianswe/ci_project1/tree/main/assets/images/the_treetop_bungalows_mockup.png)
+![Responsice Mockup](https://github.com/nianswe/ci_project1/blob/main/assets/images/the_treetop_bungalows_mockup.png)
 
 ## Features 
 
@@ -19,24 +19,24 @@ Information with description about your stay and photos what you can do in the a
   - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
   - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-![Nav Bar](https://github.com/nianswe/ci_project1/tree/main/assets/images/the_treetop_bungalows_navbar.png)
+![Nav Bar](https://github.com/nianswe/ci_project1/blob/main/assets/images/the_treetop_bungalows_navbar.png)
 
 - __The landing page image__
 
   - The landing have one information teaser and a Book Now! button
   
 
-![Landing Page](https://github.com/nianswe/ci_project1/tree/main/assets/images/the_treetop_bungalows_landing.png)
+![Landing Page](https://github.com/nianswe/ci_project1/blob/main/assets/images/the_treetop_bungalows_landing.png)
 
 - __The Treetop Bungalows__
 
   - The Treetop Bungalows 
 
-![The Treetop Bungalows](https://github.com/nianswe/ci_project1/tree/main/assets/images/the_treetop_bungalows_about.png)
-(https://github.com/nianswe/ci_project1/tree/main/assets/images/about1.png)
-(https://github.com/nianswe/ci_project1/tree/main/assets/images/about2.png)
-(https://github.com/nianswe/ci_project1/tree/main/assets/images/about3.png)
-(https://github.com/nianswe/ci_project1/tree/main/assets/images/about4.png)
+![The Treetop Bungalows](https://github.com/nianswe/ci_project1/blob/main/assets/images/the_treetop_bungalows_about.png)
+(https://github.com/nianswe/ci_project1/blob/main/assets/images/about1.png)
+(https://github.com/nianswe/ci_project1/blob/main/assets/images/about2.png)
+(https://github.com/nianswe/ci_project1/blob/main/assets/images/about3.png)
+(https://github.com/nianswe/ci_project1/blob/main/assets/images/about4.png)
 
 
 - __The Footer__ 
@@ -44,20 +44,20 @@ Information with description about your stay and photos what you can do in the a
   - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
   - The footer is valuable to the user as it encourages them to keep connected via social media
 
-![Footer](https://github.com/nianswe/ci_project1/tree/main/assets/images/the_treetop_bungalows_footer.png)
+![Footer](https://github.com/nianswe/ci_project1/blob/main/assets/images/the_treetop_bungalows_footer.png)
 
 - __About__
 
   - The about page will provide information to the user about the bungalows. 
   
-![About](https://github.com/nianswe/ci_project1/tree/main/assets/images/the_treetop_bungalows_about.png)
+![About](https://github.com/nianswe/ci_project1/blob/main/assets/images/the_treetop_bungalows_about.png)
 
 
 - __Book Now__
 
   - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
 
-![Book Now](https://github.com/nianswe/ci_project1/tree/main/assets/images/the_treetop_bungalows_booknow.png)
+![Book Now](https://github.com/nianswe/ci_project1/blob/main/assets/images/the_treetop_bungalows_booknow.png)
 
 For some/all of your features, you may choose to reference the specific project files that implement them.
 
