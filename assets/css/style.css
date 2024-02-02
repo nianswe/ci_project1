@@ -41,6 +41,7 @@ header a {
     text-decoration: none;
     color: inherit;
 }
+
 /* Logo */
 
 #logo {
@@ -84,21 +85,25 @@ nav {
 /* Nav toggle : credit and inspitaion from CI Love Running project */
 #nav-toggle:checked~nav {
     display: block;
+
 }
 
 #nav-toggle {
     display: none;
+
 }
 
 .nav-toggle-label {
     margin-top: 45px;
     font-size: 2rem;
     color: whitesmoke;
+
 }
 
 /* Mark active page on menu item with underline */
 .active {
     border-bottom: 2px solid whitesmoke;
+
 }
 
 /* Background image, behind header, main and footer, credit:  https://www.hyssnaforestresort.com/sv/ */
@@ -178,7 +183,6 @@ main {
     min-height: 100px;
     padding: 3px;
     z-index: 1;
-    
 
 }
 
@@ -209,7 +213,6 @@ main {
 #booknow-banner a
 #booknow-banner p {
     display: none;
-    
     
 }
 
@@ -404,7 +407,6 @@ footer {
         
     }
     
-    
 }
 
 /* Media query: large or landscape phones (400px and up) */
@@ -430,10 +432,6 @@ footer {
         
     }
 }
-
-
-
-
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
@@ -463,7 +461,6 @@ footer {
     
     }
     
-
     /* About Site */
 
     #about p {
@@ -477,7 +474,6 @@ footer {
 
     }
        
-
     #about h2 {
         font-size: 170%;
         font-weight: 900;
@@ -526,15 +522,6 @@ footer {
         display: none;
     }
     
-    main {
-        
-    }
-
-    #welcome {
-        
-        
-    }
-
     #welcome div {
         margin-top: 2vh;
         margin-left: 2vw;
@@ -573,11 +560,6 @@ footer {
     
     }   
 
-    
-
-    /* Hide Book Now Button floting on main page for tablets and larger (768px and up)  */
-
-    
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
@@ -590,12 +572,7 @@ footer {
         margin-left: 30vw;
     }
 
-    
-
-    
- 
 }
-
 
 /* Large devices (laptops and desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {

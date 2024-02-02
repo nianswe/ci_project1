@@ -1,110 +1,125 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# The Treetop Bungalows
 
-Welcome Niklas Andersson,
+The Treetop Bungalows web page, homepage for a fictive hotel with bungalows located up in the pine trees, and to make it easy to find for people who love the nature and whould like to stay temot in the forest but with full service and amenities. 
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+![Responsice Mockup](https://github.com/nianswe/ci_project1/tree/main/assets/images/the_treetop_bungalows_mockup.png)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Features 
 
-## Gitpod Reminders
+Background image behind navigation bar, footer and the content in the pages, makes a visiable effect when content is little transparent.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Booking schedule in booking form macke it easy to choose from and to dates you will stay
 
-`python3 -m http.server`
+Information with description about your stay and photos what you can do in the area. 
 
-A blue button should appear to click: _Make Public_,
+### Existing Features
 
-Another blue button should appear to click: _Open Browser_.
+- __Navigation Bar__
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
-A blue button should appear to click: _Make Public_,
+![Nav Bar](https://github.com/nianswe/ci_project1/tree/main/assets/images/the_treetop_bungalows_navbar.png)
 
-Another blue button should appear to click: _Open Browser_.
+- __The landing page image__
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+  - The landing have one information teaser and a Book Now! button
+  
 
-To log into the Heroku toolbelt CLI:
+![Landing Page](https://github.com/nianswe/ci_project1/tree/main/assets/images/the_treetop_bungalows_landing.png)
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+- __The Treetop Bungalows__
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+  - The Treetop Bungalows 
 
-------
+![The Treetop Bungalows](https://github.com/nianswe/ci_project1/tree/main/assets/images/the_treetop_bungalows_about.png)
+(https://github.com/nianswe/ci_project1/tree/main/assets/images/about1.png)
+(https://github.com/nianswe/ci_project1/tree/main/assets/images/about2.png)
+(https://github.com/nianswe/ci_project1/tree/main/assets/images/about3.png)
+(https://github.com/nianswe/ci_project1/tree/main/assets/images/about4.png)
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+- __The Footer__ 
 
-**September 20 2023:** Update Python version to 3.9.17.
+  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+![Footer](https://github.com/nianswe/ci_project1/tree/main/assets/images/the_treetop_bungalows_footer.png)
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+- __About__
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+  - The about page will provide information to the user about the bungalows. 
+  
+![About](https://github.com/nianswe/ci_project1/tree/main/assets/images/the_treetop_bungalows_about.png)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+- __Book Now__
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+![Book Now](https://github.com/nianswe/ci_project1/tree/main/assets/images/the_treetop_bungalows_booknow.png)
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+For some/all of your features, you may choose to reference the specific project files that implement them.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+### Features Left to Implement
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+- Another feature idea
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+## Testing 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+- All links in navigation menu and nav-toggle tested and verified.
+- Social networks links in footer ar tested, opens in new tab in browser, noopener rel attribute added.
+- Google Chrome Development Tools are used for responsive page testing.
+    - All availabe screen resolutions are tested on all pages.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+    - Navigation toogle menu, will be present on screens with width up to 768px.
+    - Horizontal navigation nenu will be present on screens wider than 768px.
 
-------
+    - Book Now! button on landing page, will be present on screens with width up to 768px.
+    - Book Now Banner will be present and replace Book Now botton on screens wider than 768px.
 
-## FAQ about the uptime script
+    - Footer with Social media links and Copyright will be hidden on screen height up to 768px, needs to scroll down to be viewed, because form on Book now page will take up all space.
+  
+### Validator Testing 
 
-**Why have you added this script?**
+- HTML
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnianswe.github.io%2Fci_project1%2F)
+- CSS
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fnianswe.github.io%2Fci_project1&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+### Unfixed Bugs
 
-**How will this affect me?**
+You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+## Deployment
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+The live link can be found here - https://https://nianswe.github.io/ci_project1/index.html 
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+## Credits 
 
-**So….?**
+### Content 
+    - The photos used on the home and sign up page are from [Pexels] https://www.pexels.com/:
+    - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+    - Fonts on all pages ar from [Google Fonts] (https://fonts.googleapis.com/)
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+    Photos: 
+        https://www.hyssnaforestresort.com/sv/
+            media-webDJI_0268.jpg
+           
+         https://www.pexels.com/:  
+            pexels-darius-krause-2254030.jpg
+            pexels-harrison-haines-7615952.jpg
+            pexels-isaac-mitchell-15265020.jpg
+            pexels-leon-natan-4549074.jpg
+            pexels-life-of-pix-101533.jpg
+            pexels-olof-nyman-988622.jpg
+            pexels-sem-steenbergen-3621344.jpg
 
-**Can I opt out?**
+### Media
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+    Insperation and code:
+        Love Running:   https://github.com/Code-Institute-Solutions/love-running-v3
+            Nav toggle menu, to hide menu on smaler screens.
+            Social Network section in footer
