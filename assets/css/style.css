@@ -85,20 +85,23 @@ nav {
 /* Nav toggle : credit and inspitaion from CI Love Running project */
 #nav-toggle:checked~nav {
     display: block;
-
+ 
 }
 
 #nav-toggle {
     display: none;
-
+    
 }
 
 .nav-toggle-label {
     margin-top: 45px;
+    margin-right: 0;
     font-size: 2rem;
     color: whitesmoke;
-
+    
 }
+
+
 
 /* Mark active page on menu item with underline */
 .active {
@@ -113,6 +116,7 @@ nav {
     height: 100%;
     background: url('../images/media-webDJI_0268.jpg') no-repeat center center / cover;
     background-attachment: fixed;
+    /* align-content: center; */
     z-index: 99; 
     /* Other background properties */
 
@@ -136,14 +140,17 @@ main {
     /* border: 2px solid whitesmoke; */
     border-radius: 30px;
     background-color: rgba(252, 253, 252, 0.7);
-    margin-top: 127px;
-    margin-left: 13vw;     
+    
+    margin-left: 13vw;
+    /* margin: auto; */   
     width: 200px;
+    /* margin:auto; */
+    margin-top: 127px;
     padding: 5px;
     text-align: center;
     position: fixed;
     font-weight: 900;
-
+    
 }
 
 #book-now-button a {
@@ -174,16 +181,17 @@ main {
 
  /* Div in Welcome Section om main page */
 #welcome div {
-    margin-top: 49vh;
+    margin-top: 60vh;
     /* border: 2px solid rgba(252, 253, 252, 0.8); */
-    border-radius: 5px;
+    border-radius: 7px;
     background-color: rgba(252, 253, 252, 0.8);
     width: 94vw;
     margin-left: 8px;
+    margin-right: 8px;
     min-height: 100px;
     padding: 3px;
     z-index: 1;
-
+    
 }
 
 /* H2 in Div in Welcome Section om main page */
@@ -191,15 +199,19 @@ main {
 #about h2 {
     font-size: 110%;
     font-weight: 900;
+    text-align: center;
     margin-left: 10px;
+    margin-right: 12px;
     padding: 5px;
 }
 
 /* P in Div in Welcome Section om main page */
 #welcome p,
 #about p {
+    text-align: center;
     font-size: 110%;
     margin-left: 10px;
+    margin-right: 15px;
     padding: 5px;
 }
 
@@ -213,24 +225,31 @@ main {
 #booknow-banner a
 #booknow-banner p {
     display: none;
+    font-style: italic;
+    font-weight: bold;
     
 }
 
 /* About Page */
 #about {
+    display: flex;
+    flex-direction:column;
     margin-top: 30vh;
-    align-items: center;
+    /* align-items: center;
+    text-align: center; */
+
  }
 
 #about div {
     margin-top: 20px;
     /* border: 1px solid rgba(252, 253, 252, 0.9); */
-    border-radius: 5px;
+    border-radius: 7px;
     background-color: rgba(252, 253, 252, 0.9);
+    text-align: center;
     margin-left:10px;
     width: 93vw;
     min-height: 100px;
-    padding: 3px;
+    padding: 3px 3px;
     z-index: 1;
 
 }
@@ -250,7 +269,7 @@ main {
     margin-left: 2vw;
     margin-bottom:auto;
     border: 2px solid whitesmoke;
-    border-radius: 5px;
+    border-radius: 7px;
     /* display:flex; */
     background-color: rgba(252, 253, 252, 0.8);
     width: 96vw;
@@ -309,7 +328,7 @@ main {
     font-size: 100%;
     align-items: center;
     margin-left: 20px;
-    
+        
 }
 
 /* Submit button, Send */
@@ -374,6 +393,7 @@ footer {
     color: whitesmoke;
 }
 
+/* Media query: screens higher than 360px and up */
 @media screen and (min-height: 720px) {
     footer {
         position: fixed; 
@@ -383,7 +403,8 @@ footer {
         left: 0;
         right: 0;
         margin-bottom: 0;
-        }
+        z-index: 1;
+    }
         
 }
 
@@ -393,7 +414,8 @@ footer {
         
     
     #book-now-button {
-    margin-left: 29vw; 
+    margin-left: 23vw;
+    /* margin:auto; */ 
     
     }
 
@@ -402,17 +424,22 @@ footer {
     }
 
     #booknow {
-        margin-left:10vw ;
+        margin-left:10vw;
+        /* margin:auto */
         margin-top: 125px;
         
     }
     
+    #welcome div {
+        margin-left: 11px;
+    }
 }
 
 /* Media query: large or landscape phones (400px and up) */
 @media screen and (min-width: 400px) {
     #book-now-button {
-       margin-left: 30vw;
+       margin-left: 24vw;
+       /* margin:auto; */
     }
 
     #social-media {
@@ -427,15 +454,28 @@ footer {
     }
 
     #booknow {
-        margin-left:14vw ;
+        margin-left:15vw;
         margin-top: 125px;
         
+    }
+}
+
+/* Media query: large or landscape phones (540px and up) */
+@media screen and (min-width: 540px) {
+    #booknow {
+        margin-left: 21vw;
+    }
+
+    #book-now-button {
+        /* margin:auto; */
+        margin-left: 31vw;
     }
 }
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
     #book-now-button {
+        /* margin:auto; */
         margin-top: 132px;
         margin-left: 33vw;
     }
@@ -522,15 +562,21 @@ footer {
         display: none;
     }
     
+    #about div {
+        width: 30vw;
+        margin-left: 2vw;
+    }
+
     #welcome div {
         margin-top: 2vh;
         margin-left: 2vw;
         width: 30vw;
         
-    }
+    } 
 
     #booknow-banner {
         display:block;
+        position:fixed;
         width: 50px;
         text-align: center;
         align-self:flex-end;
@@ -545,12 +591,17 @@ footer {
     
     #book-now-button {
         display: none;
-        margin-left: 43vw;
+        /* margin-left: 43vw; */
     }
     
+    #booknow {
+        margin-left: 30vw;
+    
+    }
+
     #about div {
         
-        margin-left: 30vw;
+        /* margin-left: 30vw; */
         width: 40vw;
     }
 
@@ -562,28 +613,55 @@ footer {
 
 }
 
+/* Large devices (laptops and desktops, 900px and up) */
+@media screen and (min-width: 900px) {
+
+    #booknow {
+        margin-left: 33vw;
+
+    }
+}
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
 
-    #welcome {}
+    #booknow {
+        margin-left: 35vw;
 
+    }
+    
     #about div {
         width: 60vw;
-        margin-left: 30vw;
+        
     }
 
+    #booknow-banner {
+    margin-right: 5vw;
+}
+
+
+    #welcome div {
+    margin-top: 10vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+
+    }
 }
 
 /* Large devices (laptops and desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
-    #book-now-button {
-        margin-left: 45vw;
-    }
-
     #about div {
         
         margin-left:5vw ;
         width: 400px;
     }
+
+    #booknow {
+        margin-left: 20vw;
+
+    }
+    
 }
+
+
+
 
