@@ -88,6 +88,8 @@ The Treetop Bungalows web page, homepage for a fictitious hotel with bungalows l
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fnianswe.github.io%2Fci_project1&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
   ![W3C CSS Validator style.css](https://github.com/nianswe/ci_project1/blob/main/assets/images/w3_css_val.png)
 
+- Lighthouse performance scoring
+  ![Lighthouse performance scoring](https://github.com/nianswe/ci_project1/blob/main/assets/images/lighthouse.png)
 
 ### Unfixed Bugs
 
