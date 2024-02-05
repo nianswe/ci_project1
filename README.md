@@ -8,7 +8,7 @@ The Treetop Bungalows web page, homepage for a fictitious hotel with bungalows l
 
 - Background image behind navigation bar, footer and the content in the pages, makes a visiable effect when content is little transparent.
 
-- Booking schedule in booking form macke it easy to choose from and to dates you will stay
+- Booking schedule in booking form make it easy to choose from and to dates customer will stay.
 
 - Information with description about your stay and photos what you can do in the area. 
 
@@ -25,14 +25,14 @@ The Treetop Bungalows web page, homepage for a fictitious hotel with bungalows l
 
 - __The landing page image__
 
-  - The landing have one information teaser and a Book Now! button
+  - The landing have one information teaser and a Book Now! button on screens width up to 768px, eon wider screens it's replaced by larger Book Now Banner with more text informatin content. 
   
-
+![Landing Page Mobile](https://github.com/nianswe/ci_project1/blob/main/assets/images/the_treetop_bunga_landing_m.png)
 ![Landing Page](https://github.com/nianswe/ci_project1/blob/main/assets/images/the_treetop_bungalows_landing.png)
 
 - __The Treetop Bungalows About__
 
-  - The Treetop Bungalows About page
+  - The Treetop Bungalows About page will provide information to the user about the bungalows.
 
 ![The Treetop Bungalows](https://github.com/nianswe/ci_project1/blob/main/assets/images/the_treetop_bungalows_about.png)
 
@@ -41,7 +41,7 @@ The Treetop Bungalows web page, homepage for a fictitious hotel with bungalows l
 ![The Treetop Bungalows](https://github.com/nianswe/ci_project1/blob/main/assets/images/about3.png)
 ![The Treetop Bungalows](https://github.com/nianswe/ci_project1/blob/main/assets/images/about4.png)
 
-- __Book Now __
+- __Book Now__
 
   - This page allows the user to check the availability to stay by filling the form with date, name and email address and submit.
 
@@ -53,12 +53,6 @@ The Treetop Bungalows web page, homepage for a fictitious hotel with bungalows l
   - The footer social media links will be available on the bottom except for screens with height smaller than 720px.
 
 ![Footer](https://github.com/nianswe/ci_project1/blob/main/assets/images/the_treetop_bungalows_footer.png)
-
-- __About__
-
-  - The about page will provide information to the user about the bungalows. 
-  
-![About](https://github.com/nianswe/ci_project1/blob/main/assets/images/the_treetop_bungalows_about.png)
 
 ## Testing 
 
@@ -90,7 +84,7 @@ The Treetop Bungalows web page, homepage for a fictitious hotel with bungalows l
 
 - Lighthouse performance scoring
   - Lighthouse performance scoring: The Treetop Bungalows
-  
+
   ![Lighthouse performance scoring](https://github.com/nianswe/ci_project1/blob/main/assets/images/lighthouse.png)
 
 ### Unfixed Bugs
