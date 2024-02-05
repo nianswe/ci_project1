@@ -6,11 +6,13 @@ The Treetop Bungalows web page, homepage for a fictive hotel with bungalows loca
 
 ## Features 
 
-Background image behind navigation bar, footer and the content in the pages, makes a visiable effect when content is little transparent.
+- Background image behind navigation bar, footer and the content in the pages, makes a visiable effect when content is little transparent.
 
-Booking schedule in booking form macke it easy to choose from and to dates you will stay
+- Booking schedule in booking form macke it easy to choose from and to dates you will stay
 
-Information with description about your stay and photos what you can do in the area. 
+- Information with description about your stay and photos what you can do in the area. 
+
+- The Book Now Banner on landing page and about page is easy to inactivate or edit with information content for temporary campains.
 
 ### Existing Features
 
@@ -28,9 +30,9 @@ Information with description about your stay and photos what you can do in the a
 
 ![Landing Page](https://github.com/nianswe/ci_project1/blob/main/assets/images/the_treetop_bungalows_landing.png)
 
-- __The Treetop Bungalows__
+- __The Treetop Bungalows About__
 
-  - The Treetop Bungalows 
+  - The Treetop Bungalows About page
 
 ![The Treetop Bungalows](https://github.com/nianswe/ci_project1/blob/main/assets/images/the_treetop_bungalows_about.png)
 
@@ -39,11 +41,16 @@ Information with description about your stay and photos what you can do in the a
 ![The Treetop Bungalows](https://github.com/nianswe/ci_project1/blob/main/assets/images/about3.png)
 ![The Treetop Bungalows](https://github.com/nianswe/ci_project1/blob/main/assets/images/about4.png)
 
+- __Book Now __
+
+  - This page allows the user to check the availability to stay by filling the form with date, name and email address and submit.
+
+![Book Now](https://github.com/nianswe/ci_project1/blob/main/assets/images/the_treetop_bungalows_booknow.png)
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section includes links to the relevant social media sites. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer social media links will be available on the bottom except for screens with height smaller than 720px.
 
 ![Footer](https://github.com/nianswe/ci_project1/blob/main/assets/images/the_treetop_bungalows_footer.png)
 
@@ -52,21 +59,6 @@ Information with description about your stay and photos what you can do in the a
   - The about page will provide information to the user about the bungalows. 
   
 ![About](https://github.com/nianswe/ci_project1/blob/main/assets/images/the_treetop_bungalows_about.png)
-
-
-- __Book Now__
-
-  - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
-
-![Book Now](https://github.com/nianswe/ci_project1/blob/main/assets/images/the_treetop_bungalows_booknow.png)
-
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-### Features Left to Implement
-
-- Another feature idea
 
 ## Testing 
 
