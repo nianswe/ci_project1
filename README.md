@@ -1,6 +1,6 @@
 # The Treetop Bungalows
 
-The Treetop Bungalows web page, homepage for a fictive hotel with bungalows located up in the pine trees, and to make it easy to find for people who love the nature and whould like to stay temot in the forest but with full service and amenities. 
+The Treetop Bungalows web page, homepage for a fictitious hotel with bungalows located up in the pine trees, and to make it easy to find for people who love the nature and whould like to stay temot in the forest but with full service and amenities. 
 
 ![Responsice Mockup](https://github.com/nianswe/ci_project1/blob/main/assets/images/the_treetop_bungalows_mockup.png)
 
