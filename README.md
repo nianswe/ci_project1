@@ -89,6 +89,7 @@ The Treetop Bungalows web page, homepage for a fictitious hotel with bungalows l
   ![W3C CSS Validator style.css](https://github.com/nianswe/ci_project1/blob/main/assets/images/w3_css_val.png)
 
 - Lighthouse performance scoring
+
   ![Lighthouse performance scoring](https://github.com/nianswe/ci_project1/blob/main/assets/images/lighthouse.png)
 
 ### Unfixed Bugs
