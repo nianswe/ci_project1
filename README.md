@@ -90,6 +90,7 @@ The Treetop Bungalows web page, homepage for a fictitious hotel with bungalows l
 
 - Lighthouse performance scoring
   - Lighthouse performance scoring: The Treetop Bungalows
+  
   ![Lighthouse performance scoring](https://github.com/nianswe/ci_project1/blob/main/assets/images/lighthouse.png)
 
 ### Unfixed Bugs
