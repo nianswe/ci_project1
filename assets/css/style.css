@@ -230,6 +230,12 @@ main {
     z-index: 2;
 }
 
+#booknow h1{
+    font-size: 120%;
+    text-align: center;
+}
+
+
 /* Input label inlinement in form */
 #booknow label {
     margin-left:4vw;
