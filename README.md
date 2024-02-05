@@ -97,11 +97,12 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ### Unfixed Bugs
 
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. 
+No known bugs.
 
 ## Deployment
 
-I created a local git repository using 'git init' and added it to the staging area with git 'add .', I committed to the local repository  using 'git commit -m 'message'' and pushed to the remote repo at GitHub with 'git push'.
+I created a local git repository using 'git init' and added it to the staging area with git 'add .', I committed to the local repository  using 'git commit -m 'message'' and pushed to the remote repository at GitHub with 'git push'.
+
 The live link can be found here - https://nianswe.github.io/ci_project1/index.html 
 
 ## Credits 
