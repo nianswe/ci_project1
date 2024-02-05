@@ -33,6 +33,7 @@ Information with description about your stay and photos what you can do in the a
   - The Treetop Bungalows 
 
 ![The Treetop Bungalows](https://github.com/nianswe/ci_project1/blob/main/assets/images/the_treetop_bungalows_about.png)
+
 ![The Treetop Bungalows](https://github.com/nianswe/ci_project1/blob/main/assets/images/about1.png)
 ![The Treetop Bungalows](https://github.com/nianswe/ci_project1/blob/main/assets/images/about2.png)
 ![The Treetop Bungalows](https://github.com/nianswe/ci_project1/blob/main/assets/images/about3.png)
@@ -85,7 +86,8 @@ In addition, you may also use this section to discuss plans for additional featu
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnianswe.github.io%2Fci_project1%2F)
+  - No errors were returned when passing through the official
+  ![W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnianswe.github.io%2Fci_project1%2F)
   ![W3C Validator index.html](https://github.com/nianswe/ci_project1/blob/main/assets/images/w3_val1.png)
   ![W3C Validator index.html](https://github.com/nianswe/ci_project1/blob/main/assets/images/w3_val2.png)
   ![W3C Validator index.html](https://github.com/nianswe/ci_project1/blob/main/assets/images/w3_val3.png)
