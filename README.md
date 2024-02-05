@@ -86,13 +86,13 @@ In addition, you may also use this section to discuss plans for additional featu
 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnianswe.github.io%2Fci_project1%2F)
-  [W3C Validator index.html](https://github.com/nianswe/ci_project1/blob/main/assets/images/w3_val1.png)
-  [W3C Validator index.html](https://github.com/nianswe/ci_project1/blob/main/assets/images/w3_val2.png)
-  [W3C Validator index.html](https://github.com/nianswe/ci_project1/blob/main/assets/images/w3_val3.png)
+  ![W3C Validator index.html](https://github.com/nianswe/ci_project1/blob/main/assets/images/w3_val1.png)
+  ![W3C Validator index.html](https://github.com/nianswe/ci_project1/blob/main/assets/images/w3_val2.png)
+  ![W3C Validator index.html](https://github.com/nianswe/ci_project1/blob/main/assets/images/w3_val3.png)
 
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fnianswe.github.io%2Fci_project1&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-  [W3C CSS Validator style.css](https://github.com/nianswe/ci_project1/blob/main/assets/images/w3_css_val.png)
+  ![W3C CSS Validator style.css](https://github.com/nianswe/ci_project1/blob/main/assets/images/w3_css_val.png)
 
 
 ### Unfixed Bugs
