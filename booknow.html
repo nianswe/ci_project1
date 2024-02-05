@@ -1,43 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 
+<!-- Book now page -->
 <!-- Head Element -->
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Meta tags for search engines -->
-    <meta name="language" content="english">
-    <meta name="descrition"
-        content="The Treetop Bungalows, Hostel, Hotel, in treehouses, remote staying up in the trees nearby lake">
+    <meta name="description" content="The Treetop Bungalows, Hostel, Hotel, in treehouses, remote staying up in the trees nearby lake">
     <meta name="keywords" content="Hostel, Hotel, treehouse, tree house, remote staying, in the bush, wildlife">
-
+    <meta name="author" content="Niklas Andersson">
+    <meta name="language" content="english">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Title -->
     <title>The Treetop Bungalows</title>
-
     <!-- Favicon  credit: https://www.iconarchive.com/show/material-icons-by-pictogrammers/pine-tree-icon.html-->
-    <!-- <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png"> -->
     <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/Pictogrammers-Material-Pine-tree.256.png">
     <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/Pictogrammers-Material-Pine-tree.32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/Pictogrammers-Material-Pine-tree.16.png">
-
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
-
 </head>
 
 <!-- Body Element -->
 
 <body>
-
     <!-- Background image, behind header, main and footer -->
     <div id="background">
-
         <!-- Header -->
         <header>
-
             <!-- Logo -->
             <a href="index.html">
                 <h1 id="logo">The Treetop Bungalows</h1>
@@ -54,16 +43,14 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="booknow.html" class="active">Book now</a></li>
                     <li><a href="about.html">About us</a></li>
-
                 </ul>
             </nav>
         </header>
 
         <!-- Main content -->
         <main>
-            <!-- Book now Form  credit and insperation from CI Love Running Project -->
+            <!-- Book now Form, credit and insperation from CI Love Running Project -->
             <div id="booknow">
-
                 <form id="booknow-form" method="POST" action="https://formdump.codeinstitute.net">
                     <h3>Check for availabe bungalows</h3>
                     <p>Please fill out the form when you plan to stay, and your contact information, we will contact
@@ -71,7 +58,6 @@
 
                     <!-- Input to select Year, Month, Day, From, To and Contact information so send in form -->
                     <div id="stayform">
-
                         <!-- Input From when, Year -->
                         <br>
                         <b>From:</b>
@@ -153,7 +139,6 @@
                         <br>
                         <!-- Input To when, Year -->
                         <b>To:</b>
-
                         <div>
                             <label for="to-year-choice">Year</label>
                             <input list="year" id="to-year-choice" name="to-year-choice" type="text" class="text-input text-input-md" required>
@@ -193,15 +178,11 @@
             </div>
         </main>
     
-
-
         <!-- Footer -->
         <footer>
             <div>
-                <div>
-                    <p id="followus">Get updated, follow us on:</p>
-                </div>
-
+                <p id="followus">Get updated, follow us on:</p>
+                <!-- Social media links-->
                 <ul id="social-media">
                     <li><a href="https://twitter.com/" target="_blank" rel="noopener"><i
                             class="fa-brands fa-x-twitter"></i></a></li>
@@ -214,12 +195,13 @@
                 </ul>
             </div>
             <div>
+                <!-- Copyright information-->
                 <p id="copyrights">© 2024 Copyright The Treetop Bungalows</p>
             </div>
         </footer>
     </div>
+    
     <!-- FontAwsome Font Kit  -->
     <script src="https://kit.fontawesome.com/183ad93049.js" crossorigin="anonymous"></script>
 </body>
-
 </html>
