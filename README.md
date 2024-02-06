@@ -104,10 +104,10 @@ The live link can be found here - https://nianswe.github.io/ci_project1/index.ht
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 - Fonts on all pages are imported from [Google Fonts] (https://fonts.googleapis.com/)
 - Photos: 
-  https://www.hyssnaforestresort.com/sv/, 
+  - https://www.hyssnaforestresort.com/sv/, 
     media-webDJI_0268.jpg
            
-  https://www.pexels.com/:  
+  - https://www.pexels.com/:  
     pexels-darius-krause-2254030.jpg, 
     pexels-harrison-haines-7615952.jpg, 
     pexels-isaac-mitchell-15265020.jpg, 
