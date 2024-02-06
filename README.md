@@ -94,7 +94,7 @@ No known bugs.
 
 I created a new public GitHub repository 'nianswe/ci_project1', using 'Code-Institute-Org/gitpod-full-template' and published the site on GitHub Pages from main branch.
 
-I created a local git repository using 'git init' and added it to the staging area with git add .', I committed to the local repository using 'git commit -m 'message'' and pushed to the remote repository at GitHub with 'git push'.
+I created a local git repository using 'git init' and added it to the staging area with 'git add .', I committed to the local repository using 'git commit -m 'message'' and pushed to the remote repository at GitHub with 'git push'.
 
 The live link can be found here - https://nianswe.github.io/ci_project1/index.html 
 
