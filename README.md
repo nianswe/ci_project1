@@ -2,7 +2,7 @@
 
 Treetop Bungalows website, website for a fictional hotel with bungalows located up in the pine trees, and to make it easy to find for people who love nature and want to live in the forest but with full service and amenities.
 
-![Responsice Mockup](https://github.com/nianswe/ci_project1/blob/main/assets/images/the_treetop_bungalows_mockup.png)
+![Responsice Mockup](https://github.com/nianswe/ci_project1/blob/main/media/the_treetop_bungalows_mockup.png)
 
 ## Features 
 
@@ -21,14 +21,14 @@ Treetop Bungalows website, website for a fictional hotel with bungalows located 
   - Navigation bar available in the header to the right on all pages, it includes links to Home, Book now and About pages.
   - On small screens with width up to 768px, the menu links are replaced by a menu toogle to make it easy to navigate between the pages across on all devices without having to revert back to the previous page via the 'back' button. 
 
-![Nav Bar](https://github.com/nianswe/ci_project1/blob/main/assets/images/the_treetop_bungalows_navbar.png)
+![Nav Bar](https://github.com/nianswe/ci_project1/blob/main/media/the_treetop_bungalows_navbar.png)
 
 - __The landing page__
 
   - The landing have one information teaser and a Book Now! button on screens width up to 768px, on wider screens it's replaced by a larger Book Now Banner with more text informatin content. 
   
-![Landing Page Mobile](https://github.com/nianswe/ci_project1/blob/main/assets/images/the_treetop_bunga_landing_m.png)
-![Landing Page](https://github.com/nianswe/ci_project1/blob/main/assets/images/the_treetop_bungalows_landing.png)
+![Landing Page Mobile](https://github.com/nianswe/ci_project1/blob/main/media/the_treetop_bunga_landing_m.png)
+![Landing Page](https://github.com/nianswe/ci_project1/blob/main/media/the_treetop_bungalows_landing.png)
 
 - __The About page__
 
@@ -36,23 +36,23 @@ Treetop Bungalows website, website for a fictional hotel with bungalows located 
 
 ![The Treetop Bungalows](https://github.com/nianswe/ci_project1/blob/main/assets/images/the_treetop_bungalows_about.png)
 
-![The Treetop Bungalows](https://github.com/nianswe/ci_project1/blob/main/assets/images/about1.png)
-![The Treetop Bungalows](https://github.com/nianswe/ci_project1/blob/main/assets/images/about2.png)
-![The Treetop Bungalows](https://github.com/nianswe/ci_project1/blob/main/assets/images/about3.png)
-![The Treetop Bungalows](https://github.com/nianswe/ci_project1/blob/main/assets/images/about4.png)
+![The Treetop Bungalows](https://github.com/nianswe/ci_project1/blob/main/media/about1.png)
+![The Treetop Bungalows](https://github.com/nianswe/ci_project1/blob/main/media/about2.png)
+![The Treetop Bungalows](https://github.com/nianswe/ci_project1/blob/main/media/about3.png)
+![The Treetop Bungalows](https://github.com/nianswe/ci_project1/blob/main/media/about4.png)
 
 - __The Book Now page__
 
   - The Book now page allows the user to check the availability to stay by filling the form with date, name and email address and send, the function to send an email is not present, it may be developed in future release.
 
-![Book Now](https://github.com/nianswe/ci_project1/blob/main/assets/images/the_treetop_bungalows_booknow.png)
+![Book Now](https://github.com/nianswe/ci_project1/blob/main/media/the_treetop_bungalows_booknow.png)
 
 - __The Footer__ 
 
   - The footer section includes links to the relevant social media sites. The links will open to a new tab to allow easy navigation for the user. 
   - It will always be available at the bottom except for screens smaller than 720px in height, when it is available by scrolling down so as not to hide relevant content.
 
-![Footer](https://github.com/nianswe/ci_project1/blob/main/assets/images/the_treetop_bungalows_footer.png)
+![Footer](https://github.com/nianswe/ci_project1/blob/main/media/the_treetop_bungalows_footer.png)
 
 ## Testing 
 
@@ -73,18 +73,18 @@ All links in the navigation menu and toogle are tested and verified.
 
 - HTML
   - No errors were returned when passing through the official
-  ![W3C Validator index.html](https://github.com/nianswe/ci_project1/blob/main/assets/images/w3_val1.png)
-  ![W3C Validator index.html](https://github.com/nianswe/ci_project1/blob/main/assets/images/w3_val2.png)
-  ![W3C Validator index.html](https://github.com/nianswe/ci_project1/blob/main/assets/images/w3_val3.png)
+  ![W3C Validator index.html](https://github.com/nianswe/ci_project1/blob/main/media/w3_val1.png)
+  ![W3C Validator index.html](https://github.com/nianswe/ci_project1/blob/main/media/w3_val2.png)
+  ![W3C Validator index.html](https://github.com/nianswe/ci_project1/blob/main/media/w3_val3.png)
 
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fnianswe.github.io%2Fci_project1&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-  ![W3C CSS Validator style.css](https://github.com/nianswe/ci_project1/blob/main/assets/images/w3_css_val.png)
+  ![W3C CSS Validator style.css](https://github.com/nianswe/ci_project1/blob/main/media/w3_css_val.png)
 
 - Lighthouse performance scoring
   - Lighthouse performance scoring: The Treetop Bungalows
 
-  ![Lighthouse performance scoring](https://github.com/nianswe/ci_project1/blob/main/assets/images/lighthouse.png)
+  ![Lighthouse performance scoring](https://github.com/nianswe/ci_project1/blob/main/media/lighthouse.png)
 
 ### Unfixed Bugs
 
