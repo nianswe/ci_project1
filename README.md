@@ -107,7 +107,8 @@ The live link can be found here - https://nianswe.github.io/ci_project1/index.ht
 
     media-webDJI_0268.jpg
            
-  - https://www.pexels.com/:  
+  - https://www.pexels.com/:
+    
     pexels-darius-krause-2254030.jpg, 
     pexels-harrison-haines-7615952.jpg, 
     pexels-isaac-mitchell-15265020.jpg, 
