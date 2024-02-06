@@ -73,7 +73,6 @@ All links in the navigation menu and toogle are tested and verified.
 
 - HTML
   - No errors were returned when passing through the official
-  ![W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fnianswe.github.io%2Fci_project1%2F)
   ![W3C Validator index.html](https://github.com/nianswe/ci_project1/blob/main/assets/images/w3_val1.png)
   ![W3C Validator index.html](https://github.com/nianswe/ci_project1/blob/main/assets/images/w3_val2.png)
   ![W3C Validator index.html](https://github.com/nianswe/ci_project1/blob/main/assets/images/w3_val3.png)
