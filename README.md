@@ -1,6 +1,6 @@
 # The Treetop Bungalows
 
-The Treetop Bungalows web page, homepage for a fictitious hotel with bungalows located up in the pine trees, and to make it easy to find for people who love the nature and whould like to stay temot in the forest but with full service and amenities. 
+Treetop Bungalows website, website for a fictional hotel with bungalows located up in the pine trees, and to make it easy to find for people who love nature and want to live in the forest but with full service and amenities.
 
 ![Responsice Mockup](https://github.com/nianswe/ci_project1/blob/main/assets/images/the_treetop_bungalows_mockup.png)
 
@@ -19,18 +19,18 @@ The Treetop Bungalows web page, homepage for a fictitious hotel with bungalows l
 - __Navigation Bar__
 
   - Navigation bar available in the header to the right on all pages, it includes links to Home, Book now and About pages.
-  - On small screens wiyh width up to 768px, the menu links are replaced by a menu toogle to make it easy to navigate between the pages across on all devices without having to revert back to the previous page via the 'back' button. 
+  - On small screens with width up to 768px, the menu links are replaced by a menu toogle to make it easy to navigate between the pages across on all devices without having to revert back to the previous page via the 'back' button. 
 
 ![Nav Bar](https://github.com/nianswe/ci_project1/blob/main/assets/images/the_treetop_bungalows_navbar.png)
 
-- __The landing page image__
+- __The landing page__
 
   - The landing have one information teaser and a Book Now! button on screens width up to 768px, on wider screens it's replaced by a larger Book Now Banner with more text informatin content. 
   
 ![Landing Page Mobile](https://github.com/nianswe/ci_project1/blob/main/assets/images/the_treetop_bunga_landing_m.png)
 ![Landing Page](https://github.com/nianswe/ci_project1/blob/main/assets/images/the_treetop_bungalows_landing.png)
 
-- __The Treetop Bungalows About__
+- __The About page__
 
   - The Treetop Bungalows About page will provide information to the user about the bungalows, inspirational information and pictures of activities in the local area.
 
@@ -41,7 +41,7 @@ The Treetop Bungalows web page, homepage for a fictitious hotel with bungalows l
 ![The Treetop Bungalows](https://github.com/nianswe/ci_project1/blob/main/assets/images/about3.png)
 ![The Treetop Bungalows](https://github.com/nianswe/ci_project1/blob/main/assets/images/about4.png)
 
-- __Book Now__
+- __The Book Now page__
 
   - The Book now page allows the user to check the availability to stay by filling the form with date, name and email address and send, the function to send an email is not present, it may be developed in future release.
 
@@ -59,15 +59,15 @@ The Treetop Bungalows web page, homepage for a fictitious hotel with bungalows l
 All links in the navigation menu and toogle are tested and verified.
 - Links to social networks in the footer are tested, open in a new tab in the browser, noopener rel attribute has been added.
 - Google Chrome's development tools are used for responsive page testing.
-          - All available screen resolutions are tested on all pages.
+  - All available screen resolutions are tested on all pages.
 
-          - Navigation toogle menu, will be present on screens with width up to 768px.
-          - Horizontal navigation will be present on screens wider than 768px.
+  - Navigation toogle menu, will be present on screens with width up to 768px.
+  - Horizontal navigation will be present on screens wider than 768px.
 
-          - Book now! button on the landing page, will be present on screens with width up to 768px.
-          - The Book Now banner will be present and replace the Book Now button on screens wider than 768px.
+  - Book now! button on the landing page, will be present on screens with width up to 768px.
+  - The Book Now banner will be present and replace the Book Now button on screens wider than 768px.
 
-          - Footer with links to social media and copyright information will be hidden at screen height up to 768px, must be scrolled down to see, as the form on the Book page now takes up all the space.
+  - Footer with links to social media and copyright information will be hidden at screen height up to 768px, must be scrolled down to see, as the form on the Book page now takes up all the space.
   
 ### Validator Testing 
 
@@ -100,22 +100,22 @@ The live link can be found here - https://nianswe.github.io/ci_project1/index.ht
 ## Credits 
 
 ### Content 
-    - The photos used on the home and sign up page are from [Pexels] https://www.pexels.com/, the background image is borrowed from the existing commercial website https://www.hyssnaforestresort.com/sv/
-    - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-    - Fonts on all pages are imported from [Google Fonts] (https://fonts.googleapis.com/)
+- The photos used on the home and sign up page are from [Pexels] https://www.pexels.com/, the background image is borrowed from the existing commercial websitepage https://www.hyssnaforestresort.com/sv/
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
+- Fonts on all pages are imported from [Google Fonts] (https://fonts.googleapis.com/)
 
-    Photos: 
-        https://www.hyssnaforestresort.com/sv/
-            media-webDJI_0268.jpg
+  Photos: 
+    https://www.hyssnaforestresort.com/sv/
+      media-webDJI_0268.jpg
            
-         https://www.pexels.com/:  
-            pexels-darius-krause-2254030.jpg
-            pexels-harrison-haines-7615952.jpg
-            pexels-isaac-mitchell-15265020.jpg
-            pexels-leon-natan-4549074.jpg
-            pexels-life-of-pix-101533.jpg
-            pexels-olof-nyman-988622.jpg
-            pexels-sem-steenbergen-3621344.jpg
+    https://www.pexels.com/:  
+      pexels-darius-krause-2254030.jpg
+      pexels-harrison-haines-7615952.jpg
+      pexels-isaac-mitchell-15265020.jpg
+      pexels-leon-natan-4549074.jpg
+      pexels-life-of-pix-101533.jpg
+      pexels-olof-nyman-988622.jpg
+      pexels-sem-steenbergen-3621344.jpg
 
 ### Media
 
