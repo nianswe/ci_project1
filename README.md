@@ -99,11 +99,12 @@ The live link can be found here - https://nianswe.github.io/ci_project1/index.ht
 ## Credits 
 
 ### Content 
-- The photos used on the home and sign up page are from [Pexels] https://www.pexels.com/, the background image is borrowed from the existing commercial websitepage https://www.hyssnaforestresort.com/sv/
+- The photos used on the home and sign up page are from [Pexels](https://www.pexels.com/), the background image is borrowed from the existing commercial websitepage https://www.hyssnaforestresort.com/sv/.
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-- Fonts on all pages are imported from [Google Fonts] (https://fonts.googleapis.com/)
+- Fonts on all pages are imported from [Google Fonts](https://fonts.googleapis.com/)
 - Photos: 
-  - https://www.hyssnaforestresort.com/sv/, 
+  - https://www.hyssnaforestresort.com/sv/:
+
     media-webDJI_0268.jpg
            
   - https://www.pexels.com/:  
@@ -118,6 +119,7 @@ The live link can be found here - https://nianswe.github.io/ci_project1/index.ht
 ### Media
 
 - Insperation and code:
+
   Love Running:   https://github.com/Code-Institute-Solutions/love-running-v3
   - Nav toggle menu, to hide menu on smaller screens.
   - Social Network section in footer.
