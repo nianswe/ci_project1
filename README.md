@@ -92,6 +92,8 @@ No known bugs.
 
 ## Deployment
 
+I created a new public GitHub repository 'nianswe/ci_project1', using 'Code-Institute-Org/gitpod-full-template' and published the site on GitHub Pages from main branch.
+
 I created a local git repository using 'git init' and added it to the staging area with git 'add .', I committed to the local repository using 'git commit -m 'message'' and pushed to the remote repository at GitHub with 'git push'.
 
 The live link can be found here - https://nianswe.github.io/ci_project1/index.html 
@@ -108,7 +110,7 @@ The live link can be found here - https://nianswe.github.io/ci_project1/index.ht
     media-webDJI_0268.jpg
            
   - https://www.pexels.com/:
-    
+
     pexels-darius-krause-2254030.jpg, 
     pexels-harrison-haines-7615952.jpg, 
     pexels-isaac-mitchell-15265020.jpg, 
