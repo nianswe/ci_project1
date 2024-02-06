@@ -103,23 +103,22 @@ The live link can be found here - https://nianswe.github.io/ci_project1/index.ht
 - The photos used on the home and sign up page are from [Pexels] https://www.pexels.com/, the background image is borrowed from the existing commercial websitepage https://www.hyssnaforestresort.com/sv/
 - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 - Fonts on all pages are imported from [Google Fonts] (https://fonts.googleapis.com/)
-
-  Photos: 
-    https://www.hyssnaforestresort.com/sv/
-      media-webDJI_0268.jpg
+- Photos: 
+  https://www.hyssnaforestresort.com/sv/
+    media-webDJI_0268.jpg
            
-    https://www.pexels.com/:  
-      pexels-darius-krause-2254030.jpg
-      pexels-harrison-haines-7615952.jpg
-      pexels-isaac-mitchell-15265020.jpg
-      pexels-leon-natan-4549074.jpg
-      pexels-life-of-pix-101533.jpg
-      pexels-olof-nyman-988622.jpg
-      pexels-sem-steenbergen-3621344.jpg
+  https://www.pexels.com/:  
+    pexels-darius-krause-2254030.jpg
+    pexels-harrison-haines-7615952.jpg
+    pexels-isaac-mitchell-15265020.jpg
+    pexels-leon-natan-4549074.jpg
+    pexels-life-of-pix-101533.jpg
+    pexels-olof-nyman-988622.jpg
+    pexels-sem-steenbergen-3621344.jpg
 
 ### Media
 
-    Insperation and code:
-        Love Running:   https://github.com/Code-Institute-Solutions/love-running-v3
-            - Nav toggle menu, to hide menu on smaler screens.
-            - Social Network section in footer.
+- Insperation and code:
+  Love Running:   https://github.com/Code-Institute-Solutions/love-running-v3
+  - Nav toggle menu, to hide menu on smaler screens.
+  - Social Network section in footer.
