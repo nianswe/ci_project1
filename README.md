@@ -34,7 +34,7 @@ Treetop Bungalows website, website for a fictional hotel with bungalows located 
 
   - The Treetop Bungalows About page will provide information to the user about the bungalows, inspirational information and pictures of activities in the local area.
 
-![The Treetop Bungalows](https://github.com/nianswe/ci_project1/blob/main/assets/images/the_treetop_bungalows_about.png)
+![The Treetop Bungalows](https://github.com/nianswe/ci_project1/blob/main/media/the_treetop_bungalows_about.png)
 
 ![The Treetop Bungalows](https://github.com/nianswe/ci_project1/blob/main/media/about1.png)
 ![The Treetop Bungalows](https://github.com/nianswe/ci_project1/blob/main/media/about2.png)
