@@ -18,21 +18,21 @@ The Treetop Bungalows web page, homepage for a fictitious hotel with bungalows l
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - Navigation bar available in the header to the right on all pages, it includes links to Home, Book now and About pages.
+  - On small screens wiyh width up to 768px, the menu links are replaced by a menu toogle to make it easy to navigate between the pages across on all devices without having to revert back to the previous page via the 'back' button. 
 
 ![Nav Bar](https://github.com/nianswe/ci_project1/blob/main/assets/images/the_treetop_bungalows_navbar.png)
 
 - __The landing page image__
 
-  - The landing have one information teaser and a Book Now! button on screens width up to 768px, eon wider screens it's replaced by larger Book Now Banner with more text informatin content. 
+  - The landing have one information teaser and a Book Now! button on screens width up to 768px, on wider screens it's replaced by a larger Book Now Banner with more text informatin content. 
   
 ![Landing Page Mobile](https://github.com/nianswe/ci_project1/blob/main/assets/images/the_treetop_bunga_landing_m.png)
 ![Landing Page](https://github.com/nianswe/ci_project1/blob/main/assets/images/the_treetop_bungalows_landing.png)
 
 - __The Treetop Bungalows About__
 
-  - The Treetop Bungalows About page will provide information to the user about the bungalows.
+  - The Treetop Bungalows About page will provide information to the user about the bungalows, inspirational information and pictures of activities in the local area.
 
 ![The Treetop Bungalows](https://github.com/nianswe/ci_project1/blob/main/assets/images/the_treetop_bungalows_about.png)
 
@@ -43,31 +43,31 @@ The Treetop Bungalows web page, homepage for a fictitious hotel with bungalows l
 
 - __Book Now__
 
-  - This page allows the user to check the availability to stay by filling the form with date, name and email address and submit.
+  - The Book now page allows the user to check the availability to stay by filling the form with date, name and email address and send, the function to send an email is not present, it may be developed in future release.
 
 ![Book Now](https://github.com/nianswe/ci_project1/blob/main/assets/images/the_treetop_bungalows_booknow.png)
 
 - __The Footer__ 
 
   - The footer section includes links to the relevant social media sites. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer social media links will be available on the bottom except for screens with height smaller than 720px.
+  - It will always be available at the bottom except for screens smaller than 720px in height, when it is available by scrolling down so as not to hide relevant content.
 
 ![Footer](https://github.com/nianswe/ci_project1/blob/main/assets/images/the_treetop_bungalows_footer.png)
 
 ## Testing 
 
-- All links in navigation menu and nav-toggle tested and verified.
-- Social networks links in footer ar tested, opens in new tab in browser, noopener rel attribute added.
-- Google Chrome Development Tools are used for responsive page testing.
-    - All availabe screen resolutions are tested on all pages.
+All links in the navigation menu and toogle are tested and verified.
+- Links to social networks in the footer are tested, open in a new tab in the browser, noopener rel attribute has been added.
+- Google Chrome's development tools are used for responsive page testing.
+          - All available screen resolutions are tested on all pages.
 
-    - Navigation toogle menu, will be present on screens with width up to 768px.
-    - Horizontal navigation nenu will be present on screens wider than 768px.
+          - Navigation toogle menu, will be present on screens with width up to 768px.
+          - Horizontal navigation will be present on screens wider than 768px.
 
-    - Book Now! button on landing page, will be present on screens with width up to 768px.
-    - Book Now Banner will be present and replace Book Now botton on screens wider than 768px.
+          - Book now! button on the landing page, will be present on screens with width up to 768px.
+          - The Book Now banner will be present and replace the Book Now button on screens wider than 768px.
 
-    - Footer with Social media links and Copyright will be hidden on screen height up to 768px, needs to scroll down to be viewed, because form on Book now page will take up all space.
+          - Footer with links to social media and copyright information will be hidden at screen height up to 768px, must be scrolled down to see, as the form on the Book page now takes up all the space.
   
 ### Validator Testing 
 
@@ -93,16 +93,16 @@ No known bugs.
 
 ## Deployment
 
-I created a local git repository using 'git init' and added it to the staging area with git 'add .', I committed to the local repository  using 'git commit -m 'message'' and pushed to the remote repository at GitHub with 'git push'.
+I created a local git repository using 'git init' and added it to the staging area with git 'add .', I committed to the local repository using 'git commit -m 'message'' and pushed to the remote repository at GitHub with 'git push'.
 
 The live link can be found here - https://nianswe.github.io/ci_project1/index.html 
 
 ## Credits 
 
 ### Content 
-    - The photos used on the home and sign up page are from [Pexels] https://www.pexels.com/:
+    - The photos used on the home and sign up page are from [Pexels] https://www.pexels.com/, the background image is borrowed from the existing commercial website https://www.hyssnaforestresort.com/sv/
     - The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
-    - Fonts on all pages ar from [Google Fonts] (https://fonts.googleapis.com/)
+    - Fonts on all pages are imported from [Google Fonts] (https://fonts.googleapis.com/)
 
     Photos: 
         https://www.hyssnaforestresort.com/sv/
