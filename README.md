@@ -120,5 +120,5 @@ The live link can be found here - https://nianswe.github.io/ci_project1/index.ht
 
 - Insperation and code:
   Love Running:   https://github.com/Code-Institute-Solutions/love-running-v3
-  - Nav toggle menu, to hide menu on smaler screens.
+  - Nav toggle menu, to hide menu on smaller screens.
   - Social Network section in footer.
